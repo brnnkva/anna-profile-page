@@ -106,3 +106,31 @@ p {
   color: white;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .projects img {
+    display: none;
+  }
+
+  .launch-link {
+    display: block;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+
+  .about-paragraphs {
+    display: none;
+  }
+}
