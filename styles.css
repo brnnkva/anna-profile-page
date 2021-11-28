@@ -56,7 +56,7 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 
 .about-link {
@@ -111,16 +111,14 @@ p {
   h1 {
     font-size: 60px;
   }
+
   h2 {
     font-size: 35px;
     text-align: center;
   }
 
-  p {
-    font-size: 15px;
-  }
-  .projects img {
-    display: none;
+  h3 {
+    font-size: 20px;
   }
 
   .launch-link {
@@ -131,6 +129,10 @@ p {
   }
 
   .about-paragraphs {
+    display: none;
+  }
+
+  .projects img {
     display: none;
   }
 }
